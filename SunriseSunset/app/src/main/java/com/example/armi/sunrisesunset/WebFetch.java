@@ -24,19 +24,8 @@ public class WebFetch {
     public void setMethod(String method) {
         this.method = method;
     }
-    public int getResultIndex() {return resultIndex;}
+
     public void setResultIndex(int resultIndex) { this.resultIndex = resultIndex;}
-
-    public Map<String, String> getParams() {
-        return params;
-    }
-    public void setParams(Map<String, String> params) {
-        this.params = params;
-    }
-
-    public void setParam(String key, String value) {
-        params.put(key, value);
-    }
 
     public String getEncodedParams() {
         StringBuilder sb = new StringBuilder();

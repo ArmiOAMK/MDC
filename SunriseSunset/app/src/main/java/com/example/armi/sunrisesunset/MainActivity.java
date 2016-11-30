@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
     List<String> locationResultList;
     List<String> sunriseResultList;
     List<String> timezoneResultList;
-    List<String> currenttimeResultList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
